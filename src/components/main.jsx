@@ -68,8 +68,6 @@ function MainS (setStatic)
                         </div>
                         
                     </div>
-
-                    
                     </nav>
                 </main>
             </center>

@@ -46,7 +46,7 @@ main
   height: 120vh;
   width: 90%;
   background-color: #ffffff;
-  
+  margin-bottom: 5vh;
   
   box-shadow: 0px 0px  40px #1a1a1a1b;
 }
@@ -228,7 +228,7 @@ li:hover
   background-color: #ffffff24;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  box-shadow: 0px 0px  2vh #1a1a1a37;
+  
   transition: 200ms;
 }
 .StatusDiv:hover
@@ -237,7 +237,7 @@ li:hover
 }
 .dot {
   transform: scale(1.5) translateY(-0.2vh);
-  animation: dot-pulse 0.3s ease-in-out infinite alternate;
+  animation: dot-pulse 0.4s ease-in-out infinite alternate;
 }
 
 @keyframes dot-pulse {
@@ -346,4 +346,62 @@ li:hover
   margin-left: 10vh;
   
   width: 17vh;
+}
+footer
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 3vh;
+  height: 10vh;
+  margin: 0;
+  background-color:#ffffff;
+}
+.companydivl
+{
+  width: 30%;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  gap: 2vh;
+  align-content: center;
+  align-items: center;
+  
+  display: flex;
+  transition: 200ms;
+}
+.companydivl img
+{
+  height: 4vh;
+}
+.companydivl:hover
+{
+  cursor: pointer;
+}
+.companydivp
+{
+  width: 30%;
+  padding-left: 20vh;
+  padding-right: 5vh;
+  gap: 2vh;
+  align-content: center;
+  align-items: center;
+  text-align: right;
+  display: flex;
+  transition: 200ms;
+  
+  text-align: right;
+}
+.companydivp img
+{
+  height: 4vh;
+}
+.companydivp:hover
+{
+  cursor: pointer;
+}
+.srodek
+{
+ 
+  width: 40%;
 }
