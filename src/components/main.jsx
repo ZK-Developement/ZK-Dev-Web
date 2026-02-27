@@ -72,11 +72,6 @@ function MainS (setStatic)
                     
                     </nav>
                 </main>
-                <p className="nag">nag</p>
-                    <p className="pnag">pang</p>
-                    <p className="text">text</p>
-                    <p className="btext">btext</p>
-                    <p className="mintext">mintext</p>
             </center>
         </>
 
