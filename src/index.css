@@ -73,6 +73,33 @@ main
   margin-bottom: 5vh;
   box-shadow: 0px 0px  40px #1a1a1a1b;
 }
+.main-opinie
+{
+  margin-top: 10vh;
+  font-size: 2vh;
+  padding: 5vh;
+  border-radius: 2.5vh;
+  height: 60vh;
+  width: 90%;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  box-shadow: 0px 0px  40px #1a1a1a1b;
+  display: flex;
+}
+.main-faq
+{
+  margin-top: 10vh;
+  font-size: 2vh;
+  padding: 5vh;
+  border-radius: 2.5vh;
+  height: auto;
+  
+  width: 90%;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  box-shadow: 0px 0px  40px #1a1a1a1b;
+  display: flex;
+}
 
 h1 {
   font-size: 3.2em;
@@ -507,6 +534,13 @@ footer
   width: 0.1vh;
   height: 9vh;
 }
+.companylineop
+{
+  float: left;
+  width: 0.1vh;
+  height: 13vh;
+  transform: translateX(-0.5vh) translateY(-0.5vh);
+}
 .companyopis
 {
   float: left;
@@ -615,7 +649,13 @@ footer
 {
   color: white;
   transform: scale(1.01) translateY(-0.5vh);
- box-shadow: 0px 0px  20vh #24242470;
+  box-shadow: 0px 0px  20vh #24242470;
+}
+.btnof:active
+{
+  color: white;
+  transform: scale(0.9) translateY(1.5vh);
+  box-shadow: 0px 0px  20vh #24242470;
 }
 
 .starac
@@ -668,5 +708,86 @@ footer
   align-content: center;
   width: 50%;
   height: 100%;
+}
+.opinia
+{
+  display: flex;
+}
+.lewoop
+{
+  overflow: hidden;
+  height: 50vh;
+  width: 50%;
+}
+.lewoop img
+{
+  object-fit: cover;
+  width: max-content;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 2vh;
+}
+
+.prawoop
+{
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  width: 50%;
+  height: 50vh;
+}
+.faq-container {
+  width: 170vh;
+  margin: 20px auto;
+}
+
+.faq-item {
+  margin: 10px 0;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.faq-item:hover {
+  transform: translateY(-2px);
+}
+
+.faq-item input {
+  display: none;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  font-weight: bold;
+  cursor: pointer;
   
+  user-select: none;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.faq-item input:checked + .faq-question .arrow {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.faq-item input:checked ~ .faq-answer {
+  max-height: 500px; 
+  padding: 15px 20px;
 }

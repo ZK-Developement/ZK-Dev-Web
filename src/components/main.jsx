@@ -8,6 +8,7 @@ import Placeholder from "../assets/images/placeholderlogo.svg"
 import compPlac from "../assets/images/monitorplaceholder.svg"
 import tabPlac from "../assets/images/tabletplaceholder.svg"
 import webplace from "../assets/images/websiteplaaceholder.svg"
+import man from "../assets/images/man.jpg"
 
 function MainS (setStatic)
 {
@@ -225,8 +226,96 @@ function MainS (setStatic)
                 </main>
             </center>
             <br id="opinie" />
+            <center>
+                <main className="main-opinie"> 
+                    <div className="opinia">
+                        <div className="lewoop"> <img src={man} alt="osoba" /></div>
+                        <div className="prawoop">
+                            <p className="nag">Grzegorz Armani</p>
+                            <p className="pnag">Własciciel serwera minecraft</p>
+                            <hr className="companylineop"></hr>
+                            <p className="text">Współpraca z Firmą ZK Developement była bardzo przyjemna oraz szybka ,
+                                 nie napotkałem zadnych problemow . polecam w 100% .</p>
+                        </div>
+
+                    </div>
+                    <div className="opinia">
+                        <div className="lewoop"> <img src={man} alt="osoba" /></div>
+                        <div className="prawoop">
+                            <p className="nag">Grzegorz Armani</p>
+                            <p className="pnag">Własciciel serwera minecraft</p>
+                            <hr className="companylineop"></hr>
+                            <p className="text">Współpraca z Firmą ZK Developement była bardzo przyjemna oraz szybka ,
+                                 nie napotkałem zadnych problemow . polecam w 100% .</p>
+                        </div>
+                        
+
+                    </div>
+
+                </main>
+            </center>
             <br id="faq" />
+            <center>
+                <main className="main-faq">
+                    <div class="faq-container">
+
+                        <div class="faq-item">
+                            <input type="checkbox" id="q1" />
+                            <label for="q1" class="faq-question">
+                            <p className="pnag">Pytanie?</p>
+                            </label>
+                            <div class="faq-answer">
+                            <p className="textl">Odpowiedź na pytanie 1.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <input type="checkbox" id="q2" />
+                            <label for="q2" class="faq-question">
+                            <p className="pnag">Pytanie?</p>
+                            </label>
+                            <div class="faq-answer">
+                            <p className="textl">Odpowiedź na pytanie 2.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <input type="checkbox" id="q3" />
+                            <label for="q3" class="faq-question">
+                            <p className="pnag">Pytanie?</p>
+                            </label>
+                            <div class="faq-answer">
+                            <p className="textl">Odpowiedź na pytanie 3.</p>
+                            </div>
+                        </div><div class="faq-item">
+                            <input type="checkbox" id="q4" />
+                            <label for="q4" class="faq-question">
+                            <p className="pnag">Pytanie?</p>
+                            </label>
+                            <div class="faq-answer">
+                            <p className="textl">Odpowiedź na pytanie 4.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <input type="checkbox" id="q5" />
+                            <label for="q5" class="faq-question">
+                            <p className="pnag">Pytanie?</p>
+                            </label>
+                            <div class="faq-answer">
+                            <p className="textl">Odpowiedź na pytanie 5.</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                </main>
+            </center>
             <br id="kontakt" />
+            <center>
+                <main className="main-kontakt">
+
+                </main>
+            </center>
             <p className="nag">Work in progres</p>
             <p className="text">Ta strona jest w trakcie tworzenia !</p>
         </>
