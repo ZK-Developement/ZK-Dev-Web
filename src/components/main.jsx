@@ -128,6 +128,8 @@ function MainS (setStatic)
                     
                 </main>
             </center>
+            <p className="nag">Work in progres</p>
+            <p className="text">Ta strona jest w trakcie tworzenia !</p>
         </>
 
     );
