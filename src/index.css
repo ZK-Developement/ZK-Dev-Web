@@ -47,7 +47,18 @@ main
   width: 90%;
   background-color: #ffffff;
   margin-bottom: 5vh;
-  
+  box-shadow: 0px 0px  40px #1a1a1a1b;
+}
+.main-portfolio
+{
+  margin-top: 15vh;
+  font-size: 2vh;
+  padding: 5vh;
+  border-radius: 2.5vh;
+  height: 200vh;
+  width: 90%;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
   box-shadow: 0px 0px  40px #1a1a1a1b;
 }
 
@@ -195,9 +206,9 @@ li
 {
   
   padding: 1vh 2vh 1vh 2vh;
-  background-color: #ffffff00;
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
+  
+ 
+  
   color: rgb(0, 0, 0);
   transition: 200ms;
   border-radius: 2vh;
@@ -206,13 +217,21 @@ li
 }
 li:hover
 {
-  background-color: #000000e3;
+  background-color: #ffffffe3;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  color: white;
+  color: rgb(0, 0, 0);
   transform: scale(1.1) translateY(-0.5vh);
-  box-shadow: 0px 0px  4vh #1a1a1a9c;
-
+  box-shadow: 0px 0px  4vh #24242443;
+}
+li:active
+{
+  background-color: #ffffffe3;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  color: rgb(0, 0, 0);
+  transform: scale(0.9) translateY(0.5vh);
+  box-shadow: 0px 0px  4vh #24242443;
 }
 .StatusDiv
 {
@@ -263,7 +282,7 @@ li:hover
 {
   border-radius: 2vh;
   height: 50vh;
-  width: 100%;
+  width: 90%;
   object-fit: cover;
   transition: 200ms;
 }
@@ -404,4 +423,69 @@ footer
 {
  
   width: 40%;
+}
+.div1
+{
+  text-align: left;
+}
+.lewoc
+{
+  height: 50vh;
+  float: left;
+  width: 50%;
+  
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+}
+.prawoc
+{
+  height: 50vh;
+  float: right;
+  width: 50%;
+  
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+}
+.prawoc img
+{
+  transform: scale(0.9) translateY(-22vh);
+  transition: 200ms;
+}
+.prawoc img:hover
+{
+  
+  transform: scale(1) translateY(-22vh);
+}
+
+.category
+{
+  color: #797979;
+  background-color: #ededed;
+  padding: 0.6vh;
+  border-radius: 1vh;
+}
+.companyline
+{
+  float: left;
+  width: 0.1vh;
+  height: 9vh;
+}
+.companyopis
+{
+  float: left;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  gap: 2vh;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.companyad
+{
+  margin-bottom: 20vh;
 }

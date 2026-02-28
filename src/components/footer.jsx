@@ -1,6 +1,7 @@
 import icon from "../assets/images/icon.svg"
 import emicon from "../assets/images/emailicon.png"
 
+
 function Footer (setStatic)
 {
     return(

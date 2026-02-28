@@ -4,6 +4,9 @@ import Offer from "../assets/images/offericon.svg"
 import Onas from "../assets/images/kontact.png"
 import Dartrans from "../assets/images/dartrans.png"
 import StarSystem from "../assets/images/StarSystemlogo.svg"
+import Placeholder from "../assets/images/placeholderlogo.svg"
+import compPlac from "../assets/images/monitorplaceholder.svg"
+import tabPlac from "../assets/images/tabletplaceholder.svg"
 function MainS (setStatic)
 {
     return(
@@ -21,7 +24,7 @@ function MainS (setStatic)
                                         <p className="pnag">Developement</p>
                                 </div>
                             <p className="nag">Napiszemy twoją Strone od podstaw .</p>
-                            <p className="text">Zajmujemy sie tworzeniem nowoczesnych stron internetowych oraz projektami designu strony,.</p>
+                            <p className="text">Zajmujemy sie tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p>
                             <div className="flexb">
                                 <button className="btn">
                                     <img src={Message} alt="icon" />
@@ -62,13 +65,67 @@ function MainS (setStatic)
                         <p className="nag">Firmy które nam zaufały :</p>
                         <div className="zaufal">
                             <div className=" flexzauf">
-                                <a href=""><img src={Dartrans} alt="dardtranslogo" /></a>
-                                <a href=""> <img src={StarSystem} alt="starsystemlogo" /></a>
+                                <a href=""><img src={Placeholder} alt="dardtranslogo" /></a>
+                                <a href=""> <img src={Placeholder} alt="starsystemlogo" /></a>
                             </div>
                         </div>
                         
                     </div>
                     </nav>
+                </main>
+            </center>
+            <center>
+                <main className="main-portfolio">
+                    <div className="div1">
+                        <p className="text">Dowiedz się jak</p>
+                        <p className="nag">Tworzymy rozwiązania, które zwiększają Twoją widoczność w sieci</p>
+                    </div>
+                    <div className="companyad">
+                        <div className="lewoc" >
+                            <p className="text">Nazwa Firmy  <span className="category">Sklep internetowy</span> <span className="category">Firma osobista</span></p>
+                            <p className="nag">Nowoczesny sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
+                            <div className="companyopis">
+                            <hr className="companyline"></hr>
+                            <p className="text">Klient przyszedł do nas z prośbą o odświeżenie ich sklepu internetowego.<br />
+                                                Udało nam się w pełni sprostać jego wymaganiom,<br />
+                                                co zaowocowało znacznym wzrostem konwersji i sprzedaży.</p>
+                            </div>
+                        </div>
+                        <div className="prawoc">
+                            <img src={compPlac} alt="companyview" />
+                        </div>
+                    </div>
+                    <div className="companyad">
+                        <div className="lewoc" >
+                            <p className="text">Nazwa Firmy  <span className="category">Sklep internetowy</span> <span className="category">Firma osobista</span></p>
+                            <p className="nag">Nowoczesny sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
+                            <div className="companyopis">
+                            <hr className="companyline"></hr>
+                            <p className="text">Klient przyszedł do nas z prośbą o odświeżenie ich sklepu internetowego.<br />
+                                                Udało nam się w pełni sprostać jego wymaganiom,<br />
+                                                co zaowocowało znacznym wzrostem konwersji i sprzedaży.</p>
+                            </div>
+                        </div>
+                        <div className="prawoc">
+                            <img src={tabPlac} alt="companyview" />
+                        </div>
+                    </div>
+                    <div className="companyad">
+                        <div className="lewoc" >
+                            <p className="text">Nazwa Firmy  <span className="category">Sklep internetowy</span> <span className="category">Firma osobista</span></p>
+                            <p className="nag">Nowoczesny sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
+                            <div className="companyopis">
+                            <hr className="companyline"></hr>
+                            <p className="text">Klient przyszedł do nas z prośbą o odświeżenie ich sklepu internetowego.<br />
+                                                Udało nam się w pełni sprostać jego wymaganiom,<br />
+                                                co zaowocowało znacznym wzrostem konwersji i sprzedaży.</p>
+                            </div>
+                        </div>
+                        <div className="prawoc">
+                            <img src={compPlac} alt="companyview" />
+                        </div>
+                    </div>
+                    
                 </main>
             </center>
         </>
