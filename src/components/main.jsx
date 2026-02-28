@@ -52,7 +52,7 @@ function MainS (){
         <>
         <br id="onas" />
             <center>
-                <main>
+                <main className="main-glowna">
                     <nav>
                     <div className="flex" >
                             <div className="onasdiv">
@@ -63,14 +63,14 @@ function MainS (){
                             <p className="nag">Napiszemy twoją Strone od podstaw .</p>
                             <p className="text">Zajmujemy sie tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p>
                             <div className="flexb">
-                                <button className="btn">
+                                <a href="#oferty"><button className="btn">
                                     <img src={Message} alt="icon" />
                                     Zobacz Oferty
-                                </button>
-                                <button className="btn">
+                                </button></a>
+                                <a href="#kontakt"><button className="btn">
                                     <img src={Offer} alt="icon" />
                                     Napisz do nas
-                                </button>
+                                </button></a>
                             </div>
                         
                         </div>

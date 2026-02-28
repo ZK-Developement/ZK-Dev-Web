@@ -18,6 +18,15 @@
   box-sizing: border-box;
 }
 
+/* Prevent horizontal scrolling caused by wide elements */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Ensure images never force horizontal overflow */
+img { max-width: 100%; height: auto; display: block; }
+
 a {
   font-weight: 500;
   color: #000000;
@@ -191,8 +200,6 @@ header
   padding: 0 1vh;
   position: fixed;
   top: 0;
-  
-  
 }
 header img
 {
@@ -344,7 +351,7 @@ li:active
   background: 
   linear-gradient(rgba(255, 255, 255, 0.157),
   rgb(255, 255, 255)),
-  url(./assets/images/kontact.png) 
+  url(./assets/images/kontact1.png) 
   center center / cover no-repeat;
   border-radius: 2vh;
 }
@@ -728,17 +735,19 @@ footer
 .lewoop
 {
   overflow: hidden;
-  height: 50vh;
-  width: 50%;
+  height: 55vh;
+  width: 45%;
+  padding: 1vh;
 }
 .lewoop img
 {
   object-fit: cover;
-  width: max-content;
-  flex-shrink: 0;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   height: 100%;
-  border-radius: 2vh;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1.5vh;
 }
 
 .prawoop
@@ -746,10 +755,11 @@ footer
   text-align: left;
   justify-content: center;
   align-content: center;
-  padding-left: 5vh;
-  padding-right: 5vh;
-  width: 50%;
-  height: 50vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  width: 55%;
+  height: auto;
+  font-size: 1.9vh;
 }
 .faq-container {
   width: 170vh;
@@ -855,5 +865,142 @@ footer
   width: 60%;
   padding: 10vh;
   background-color: #e7e7e7;
+}
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .liniagp { display: none; }
+  header {
+    margin: 2vh 2vw;
+    width: calc(100% - 4vw);
+    height: auto;
+    padding: 1vh;
+    border-radius: 2vh;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+  }
+  header img { height: 5vh; }
+  .companydiv, .companydivb, .companydivl, .companydivp { padding-left: 2vh; padding-right: 2vh; }
+  .companydiv { flex: 1 1 auto; align-items: center; }
+  .StatusDiv { margin-left: auto; font-size: 1.3vh;}
+  
+  .navbar { gap: 1vh; flex-wrap: wrap; }
+  .navbar { display: none; }
+  li { padding: 0.8vh 1vh; font-size: 2vh; }
+  /* Stack services and center hero buttons for mobile */
+  .div { width: 100%; padding: 0 2vh 3vh; }
+  .div .pnagl { text-align: center; margin: 0 0 1vh; font-size: 2.2vh; }
+  .flex2 { flex-direction: column; gap: 1.2vh; align-items: stretch; margin-top: 18vh; transform: translateX(-7.5vh); }
+  .flex2 .uslugi {  padding: 2.5vh 1vh; text-align: left; width: 40vh; }
+  .flex2 .pnag { font-size: 2.2vh; }
+  .flex2 .text { font-size: 1.7vh; }
+  .flexb { display: flex; justify-content: center; gap: 2vh; flex-wrap: nowrap; margin: 2vh 0 1rem; width: 100%; padding-left: 1vh;padding-right: 1vh;}
+  .flexb .btn { padding: 0.6em 0.4em; font-size: 2vh;margin-top: 14vh;margin-bottom: 10vh; background-color: black; color: rgb(255, 255, 255); }
+  .btn img { display: none;}
+  main, .main-portfolio, .main-oferty, .main-opinie, .main-faq, .main-kontakt {
+    width: 95%;
+    margin: 2vh auto 4vh;
+    height: auto;
+    font-size: 2vh;
+    padding-bottom: 10vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }
+  .main-glowna
+  {
+    margin-top: 10vh;
+  }
+  
+
+  button, .btnof, .btnkontakt {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding: 0.6em 0.8em;
+    font-size: 2.2vh;
+    border-radius: 1.5vh;
+  }
+  .onasdiv {
+    padding: 0 4vh;
+    height: 40vh;
+    filter: none;
+    background-size: cover;
+  }
+  .onasdiv {
+    filter: grayscale(60%);
+  }
+  .projekt, .opinia { display: block ; height: auto; }
+  .plewo, .pprawo, .lewoop, .prawoop { width: 100%; float: none; height: auto; }
+  .oferta, .ofertarec { width: 100%; height: auto; margin-bottom: 2vh; }
+
+  .main-oferty .flex { flex-direction: column; gap: 2vh; align-items: stretch; }
+  .main-oferty .oferta, .main-oferty .ofertarec { width: 100%; margin: 0 0 1.5vh 0; }
+  .main-oferty .oferta .btnof, .main-oferty .ofertarec .btnof { margin: 1.2vh auto 0 auto; }
+
+  .companyad { display: flex; flex-direction: column; gap: 1.2vh; padding: 2vh 1vh; margin-bottom: 3vh; }
+  .companyopis { flex-direction: column; padding-left: 0; padding-right: 0; gap: 1vh; }
+  .oferta, .ofertarec { display: block; width: 100%; margin: 0 0 1.5vh 0; height: auto;padding-bottom: 4vh;}
+  .pnagl { margin-left: 0; font-size: 2vh; }
+  .text, .textl, .btext, .mintext { font-size: 1.6vh; }
+  .flexzauf { animation: none; flex-wrap: wrap; gap: 2vh; justify-content: center; transform: translateX(-3.5vh);}
+  .flexzauf img { height: 8vh; border-radius: 1vh; }
+  .flexzauf a { display: flex; align-items: center; justify-content: center; }
+  .faq-container { width: 100%; padding: 0 2vh; }
+  .inputkontakt, .textkontakt { width: 100%; }
+  .kontactdiv { width: 100%; padding: 5vh; }
+  img { max-width: 100%; height: auto; }
+  footer { flex-direction: column; height: auto; padding: 4vh 2vh; gap: 2vh; }
+  footer { align-items: center; text-align: center; }
+  .companydivl, .companydivp, .srodek { width: 100%; padding-left: 0; padding-right: 0; justify-content: center; }
+  .companydivp { text-align: center; }
+  .linia{ width: 20vh;}
+  
+  .companyad {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1.5vh;
+    padding: 1.5vh 1vh;
+  }
+  .companyad .prawoc {
+    height: 10vh;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    transform: scale(1.3) translateY(5vh);
+  }
+  
+  .companyad .prawoc img {
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 1.5vh;
+    display: block;
+    margin: 0 auto;
+  }
+  .div1 { margin-bottom: 10vh; }
+  .companyad .lewoc {
+    width: 100%;
+    padding: 0.5vh 0;
+    text-align: center;
+    
+  }
+  .companyad .companyopis {
+    padding: 0.5vh 0;
+    text-align: center;
+  }
+  .companyad .companyline { display: none; }
+  .companyad .nag { font-size: 2.8vh; }
+  .companyad .text, .companyad .textl, .companyad .btext, .companyad .mintext { font-size: 1.6vh; }
+}
+
+@media (max-width: 420px) {
+  h1 { font-size: 6vw; }
+  .nag, .nagl { font-size: 5.5vw; }
+  button, .btnof, .btnkontakt { font-size: 3.5vw; padding: 0.7em 1em; }
+  header img { height: 4.5vh; }
+  .companydiv img, .companydivl img, .companydivp img { height: 3.5vh; }
+  .pnagl { margin-left: 2vh; font-size: 3.5vw; }
+  .linia, .liniaof, .liniagp { display: none; }
+  .faq-answer { font-size: 3.5vw; }
 }
 
