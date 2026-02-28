@@ -181,7 +181,7 @@ function MainS (){
                                 <p className="textl">✔ Respoinsywność strony</p>
                                 <p className="textl">✔ Czas realizacji do 5 dni</p>
                                 </div>
-                                <button className="btnof">Kontakt</button>
+                                <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                             </div>
                             <div className="ofertarec">
                                 <p className="recom">Najczęsciej Wybierane</p>
@@ -193,7 +193,7 @@ function MainS (){
                                 <p className="textl">✔ Podpięcie pod domenę i hosting</p>
                                 <p className="textl">✔ Czas realizacji do 7 dni</p>
                                 </div>
-                                <button className="btnof">Kontakt</button>
+                                <a href="#kontakt"><button className="btnof">Kontakt</button></a>
 
                             </div>
                             <div className="oferta">
@@ -205,7 +205,7 @@ function MainS (){
                                 <p className="textl">✔ Optymalizacja SEO</p>
                                 <p className="textl">✔ Respoinsywność strony</p>
                                 </div>
-                                <button className="btnof">Kontakt</button>
+                                <a href="#kontakt"><button className="btnof">Kontakt</button></a>
 
                             </div>
                             <div className="oferta">
@@ -217,7 +217,7 @@ function MainS (){
                                 <p className="textl">✔ Priorytetowa realizacja</p>
                                 </div>
                                 <div className="ofdol">
-                                    <button className="btnof">Kontakt</button>
+                                    <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                                 </div>
                                 
                             </div>
@@ -232,6 +232,7 @@ function MainS (){
                             </div>
                             <div className="pprawo">
                                 <p className="nag">Strona Restauracji</p>
+                                <p className="pnag">250zł</p>
                                 <p className="text">Strona internetowa dla restauracji </p>
                                 <button className="btnof">Kontakt</button>
                                 
@@ -243,6 +244,7 @@ function MainS (){
                             </div>
                             <div className="pprawo">
                                 <p className="nag">Strona Firmy</p>
+                                <p className="pnag">250zł</p>
                                 <p className="text">Strona internetowa dla Firmy osobistej. </p>
                                 <button className="btnof">Kontakt</button>
                                 
@@ -254,6 +256,7 @@ function MainS (){
                             </div>
                             <div className="pprawo">
                                 <p className="nag">Strona Serwera</p>
+                                <p className="pnag">250zł</p>
                                 <p className="text">Strona internetowa dla Serwera w grze. </p>
                                 <button className="btnof">Kontakt</button>
                                 
@@ -298,46 +301,46 @@ function MainS (){
                         <div class="faq-item">
                             <input type="checkbox" id="q1" />
                             <label for="q1" class="faq-question">
-                            <p className="pnag">Pytanie?</p>
+                            <p className="pnag">Czy pomagasz w zakupie domeny i hostingu?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Odpowiedź na pytanie 1.</p>
+                            <p className="textl">Tak. Dobiorę domenę i hosting, skonfiguruję wszystko i podłączę SSL. Nie musisz nic wiedzieć o DNS .</p>
                             </div>
                         </div>
 
                         <div class="faq-item">
                             <input type="checkbox" id="q2" />
                             <label for="q2" class="faq-question">
-                            <p className="pnag">Pytanie?</p>
+                            <p className="pnag">Ile trwa wykonanie strony?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Odpowiedź na pytanie 2.</p>
+                            <p className="textl">W zależnosci od wybranego planu lub twojego własnego projektu , ale średnia realizacja może wynoscic od 5 dni do 1 miesiąca.</p>
                             </div>
                         </div>
                         <div class="faq-item">
                             <input type="checkbox" id="q3" />
                             <label for="q3" class="faq-question">
-                            <p className="pnag">Pytanie?</p>
+                            <p className="pnag">Czy strona będzie dostosowana do telefonów?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Odpowiedź na pytanie 3.</p>
+                            <p className="textl">Tak. Każdy projekt ktory tworzymy chcemy aby byl uniwersalny pod każde urządzenie.</p>
                             </div>
                         </div><div class="faq-item">
                             <input type="checkbox" id="q4" />
                             <label for="q4" class="faq-question">
-                            <p className="pnag">Pytanie?</p>
+                            <p className="pnag">Czy oferujesz wsparcie po wdrożeniu?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Odpowiedź na pytanie 4.</p>
+                            <p className="textl">Tak po opublikowaniu strony dalej jest ze mną kontakt wiec jeśli bedziesz mial cos do poprawy lub do dodania w późniejszym czasie wystarczy napisać.</p>
                             </div>
                         </div>
                         <div class="faq-item">
                             <input type="checkbox" id="q5" />
                             <label for="q5" class="faq-question">
-                            <p className="pnag">Pytanie?</p>
+                            <p className="pnag">Czy mogę zmienić wygląd strony później?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Odpowiedź na pytanie 5.</p>
+                            <p className="textl">Jeśli chcesz coś poprawić lub dodać treści, wystarczy, że dasz mi znać, a ja to wprowadzę.</p>
                             </div>
                         </div>
                         
