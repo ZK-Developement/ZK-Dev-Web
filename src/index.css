@@ -41,7 +41,7 @@ main
 {
   margin-top: 10vh;
   font-size: 2vh;
-  padding: 5vh;
+  
   border-radius: 2.5vh;
   height: 120vh;
   width: 90%;
@@ -56,6 +56,18 @@ main
   padding: 5vh;
   border-radius: 2.5vh;
   height: 180vh;
+  width: 90%;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  box-shadow: 0px 0px  40px #1a1a1a1b;
+}
+.main-oferty
+{
+  margin-top: 10vh;
+  font-size: 2vh;
+  padding: 5vh;
+  border-radius: 2.5vh;
+  height: 290vh;
   width: 90%;
   background-color: #ffffff;
   margin-bottom: 5vh;
@@ -189,6 +201,13 @@ header img
 }
 .flex
 {
+  gap: 2vh;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+.flex2
+{
   padding-left: 5vh;
   padding-right: 5vh;
   gap: 2vh;
@@ -269,28 +288,30 @@ li:active
 }
 
 .nag { font-size: 3.5vh; font-weight: bold;}
+.nagl { font-size: 3.5vh; font-weight: bold; text-align: left;}
 .pnag { font-size: 2.5vh; font-weight: bold;}
 .text { font-size: 2vh; }
+.textl { font-size: 2vh;text-align: left; }
 .btext { font-size: 2vh; font-weight: bold;}
 .mintext { font-size: 1.5vh; color: #636363;}
-.lewo
-{
-  width: 60%;
 
-}
-.lewo img
+.onasdiv
 {
+  padding: 0vh 40vh 0vh 40vh;
+  justify-content: center;
+  align-content: center;
+  height: 60vh;
+  width: 100%;
+  filter: grayscale(60%);
+  background: 
+  linear-gradient(rgba(255, 255, 255, 0.157),
+  rgb(255, 255, 255)),
+  url(./assets/images/kontact.png) 
+  center center / cover no-repeat;
   border-radius: 2vh;
-  height: 50vh;
-  width: 90%;
-  object-fit: cover;
-  transition: 200ms;
 }
-.lewo img:hover
-{
-  transform: scale(1.01) translateY(-0.2vh);
-  box-shadow: 0px 0px  4vh #1a1a1a31;
-}
+
+
 .uslugi 
 {
   margin: 0 3lvb 0 3lvb;
@@ -312,6 +333,7 @@ li:active
 }
 .flexb
 {
+  width: 70%;
   padding-left: 5vh;
   padding-right: 5vh;
   gap: 2vh;
@@ -363,8 +385,19 @@ li:active
 .linia
 {
   margin-left: 10vh;
-  
   width: 17vh;
+}
+.liniaof
+{
+  margin-left: 10vh;
+  width: 68vh;
+  margin-bottom: 5vh;
+}
+.liniagp
+{
+  margin-left: 10vh;
+  width: 108vh;
+  margin-bottom: 5vh;
 }
 footer
 {
@@ -488,4 +521,152 @@ footer
 .companyad
 {
   margin-bottom: 20vh;
+}
+.oferta
+{
+  padding-top: 0.5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  background-color: #ffffff;
+  height: 60vh;
+  width: 30%;
+  border-radius: 2ch;
+  border: solid black 0.1vh;
+  transition: 200ms;
+}
+.ofertarec
+{
+  padding-left: 5vh;
+  padding-right: 5vh;
+  height: 60vh;
+  width: 30%;
+  border-radius: 2ch;
+  border: solid black 1vh;
+  transition: 200ms;
+}
+.ofertarec:hover
+{
+ transform: scale(1.01) translateY(-1.5vh);
+ box-shadow: 0px 0px  10vh #24242428;
+}
+.oferta:hover
+{
+ transform: scale(1.01) translateY(-1.5vh);
+ box-shadow: 0px 0px  10vh #24242428;
+}
+.recom
+{
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+  transform: translateY(-4vh) translateX(10%) ;
+  background-color: #000000;
+  width: 22ch;
+  border-radius: 1vh;
+  text-align: center;
+}
+.oful
+{
+  justify-content: left;
+  background-color: red;
+  width: 100%;
+}
+.ofli
+{
+  
+  background-color: none;
+  list-style: none;
+  box-shadow: none;
+  text-align: left;
+  width: 20vh;
+}
+.ofli:hover
+{
+  
+  background-color: none;
+  list-style: none;
+  box-shadow: none;
+}
+.btnof {
+  
+  text-align: center;
+  display: flex;
+  
+  margin-left: 3vh;
+  margin-right: 3vh;
+  border-radius: 2vh;
+  border: 1px solid transparent;
+  padding: 0.6em 5vh;
+  font-size: 2vh;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000; 
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  transition: 200ms;
+  justify-content: space-between;
+  gap: 1vh;
+  
+}
+.btnof:hover
+{
+  color: white;
+  transform: scale(1.01) translateY(-0.5vh);
+ box-shadow: 0px 0px  20vh #24242470;
+}
+
+.starac
+{
+  color: #63636364;
+  text-decoration: line-through;
+  margin: 0vh 1vh;
+  font-size: 2vh;
+}
+.przec
+{
+  font-size: 3vh;
+  background-color: #000000ab;
+  color: white;
+  padding: 0.2vh 1.2vh 0.5vh 1.2vh;
+  border-radius: 3vh;
+}
+.of-gora
+{
+  height: 75%;
+}
+.projekt
+{
+  
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  padding: 3vh;
+  margin-bottom: 5vh;
+}
+.plewo
+{
+  justify-content: center;
+  align-content: center;
+  border-radius: 2vh;
+  width: 50%;
+  height: 100%;
+  border: solid #000000 1px;
+}
+.plewo img
+{
+  border-radius: 2vh;
+  height: 100%;
+  width: 100%;
+  background:  center / cover no-repeat;
+}
+.pprawo
+{
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 100%;
+  
 }

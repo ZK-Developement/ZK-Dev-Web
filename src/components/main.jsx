@@ -1,12 +1,14 @@
 import icon from "../assets/images/icon.svg"
 import Message from "../assets/images/messageicon.svg"
 import Offer from "../assets/images/offericon.svg"
-import Onas from "../assets/images/kontact.png"
+import Onas from "../assets/images/monitor.png"
 import Dartrans from "../assets/images/dartrans.png"
 import StarSystem from "../assets/images/StarSystemlogo.svg"
 import Placeholder from "../assets/images/placeholderlogo.svg"
 import compPlac from "../assets/images/monitorplaceholder.svg"
 import tabPlac from "../assets/images/tabletplaceholder.svg"
+import webplace from "../assets/images/websiteplaaceholder.svg"
+
 function MainS (setStatic)
 {
     return(
@@ -16,10 +18,7 @@ function MainS (setStatic)
                 <main>
                     <nav>
                     <div className="flex" >
-                        <div className="lewo">
-                            <img src={Onas} alt="" />
-                        </div>
-                            <div>
+                            <div className="onasdiv">
                                 <div className="companydivb">
                                         <img src={icon} alt="icon" />
                                         <p className="pnag">Developement</p>
@@ -43,7 +42,7 @@ function MainS (setStatic)
                         <p className="pnagl">Nasze usługi :</p>
                         <hr className="linia" />
 
-                        <div className="flex">
+                        <div className="flex2">
                             <div className="uslugi">
                                 <p className="pnag">Projektowanie Design/UI Strony</p>
                                 <p className="text">Projektujemy nowoczesne oraz przejrzyste interfejsy strony.</p>
@@ -130,6 +129,104 @@ function MainS (setStatic)
                     
                 </main>
             </center>
+            <br id="oferty" />
+            <center>
+                <main className="main-oferty">
+                    <p className="pnagl">Nasze Oferty : - wybierz to, co pasuje do Twojego biznesu.</p>
+                        <hr className="liniaof" />
+                        <div className="flex">
+                            <div className="oferta">
+                                <div className="of-gora">
+                                <p className="nag">Standard</p>
+                                <p className="nagl">100zł</p>
+                                <p className="textl">✔ Do 2 podstron</p>
+                                <p className="textl">✔ Podstawowy formularz kontaktowy</p>
+                                <p className="textl">✔ Respoinsywność strony</p>
+                                <p className="textl">✔ Czas realizacji do 5 dni</p>
+                                </div>
+                                <button className="btnof">Kontakt</button>
+                            </div>
+                            <div className="ofertarec">
+                                <p className="recom">Najczęsciej Wybierane</p>
+                                <div className="of-gora">
+                                <p className="nag">Standard +</p>
+                                <p className="nagl">240zł <span className="starac">300zł</span><span className="przec">-20%</span></p>
+                                <p className="textl">✔ Do 5 podstron </p>
+                                <p className="textl">✔ Responsywność </p>
+                                <p className="textl">✔ Podpięcie pod domenę i hosting</p>
+                                <p className="textl">✔ Czas realizacji do 7 dni</p>
+                                </div>
+                                <button className="btnof">Kontakt</button>
+
+                            </div>
+                            <div className="oferta">
+                                <div className="of-gora">
+                                <p className="nag">Premium</p>
+                                <p className="nagl">999zł</p>
+                                <p className="textl">✔ Customowy formularz</p>
+                                <p className="textl">✔ Animacje i efekty UI</p>
+                                <p className="textl">✔ Optymalizacja SEO</p>
+                                <p className="textl">✔ Respoinsywność strony</p>
+                                </div>
+                                <button className="btnof">Kontakt</button>
+
+                            </div>
+                            <div className="oferta">
+                                <div className="of-gora">
+                                <p className="nag">Custom</p>
+                                <p className="nagl">?zł</p>
+                                <p className="textl">✔ Osobista wycena projektu</p>
+                                <p className="textl">✔ 24/7 Kontakt</p>
+                                <p className="textl">✔ Priorytetowa realizacja</p>
+                                </div>
+                                <div className="ofdol">
+                                    <button className="btnof">Kontakt</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <br id="projekty" />
+                        <p className="pnagl">Gotowe Projekty : - wybierz to co pasuje do Twojego biznesu a my dostosujemy go do was.</p>
+                        <hr className="liniagp" />
+                        
+                        <div className="projekt">
+                            <div className="plewo">
+                                <img src={webplace} alt="" />
+                            </div>
+                            <div className="pprawo">
+                                <p className="nag">Strona Restauracji</p>
+                                <p className="text">Strona internetowa dla restauracji </p>
+                                <button className="btnof">Kontakt</button>
+                                
+                            </div>
+                        </div>
+                        <div className="projekt">
+                            <div className="plewo">
+                                <img src={webplace} alt="" />
+                            </div>
+                            <div className="pprawo">
+                                <p className="nag">Strona Firmy</p>
+                                <p className="text">Strona internetowa dla Firmy osobistej. </p>
+                                <button className="btnof">Kontakt</button>
+                                
+                            </div>
+                        </div>
+                        <div className="projekt">
+                            <div className="plewo">
+                                <img src={webplace} alt="" />
+                            </div>
+                            <div className="pprawo">
+                                <p className="nag">Strona Serwera</p>
+                                <p className="text">Strona internetowa dla Serwera w grze. </p>
+                                <button className="btnof">Kontakt</button>
+                                
+                            </div>
+                        </div>
+                </main>
+            </center>
+            <br id="opinie" />
+            <br id="faq" />
+            <br id="kontakt" />
             <p className="nag">Work in progres</p>
             <p className="text">Ta strona jest w trakcie tworzenia !</p>
         </>
