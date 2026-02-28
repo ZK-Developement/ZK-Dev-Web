@@ -46,16 +46,16 @@ main
   height: 120vh;
   width: 90%;
   background-color: #ffffff;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
   box-shadow: 0px 0px  40px #1a1a1a1b;
 }
 .main-portfolio
 {
-  margin-top: 15vh;
+  margin-top: 10vh;
   font-size: 2vh;
   padding: 5vh;
   border-radius: 2.5vh;
-  height: 200vh;
+  height: 180vh;
   width: 90%;
   background-color: #ffffff;
   margin-bottom: 5vh;

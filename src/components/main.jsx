@@ -11,10 +11,11 @@ function MainS (setStatic)
 {
     return(
         <>
+        <br id="onas" />
             <center>
                 <main>
                     <nav>
-                    <div className="flex" id="onas">
+                    <div className="flex" >
                         <div className="lewo">
                             <img src={Onas} alt="" />
                         </div>
@@ -74,8 +75,9 @@ function MainS (setStatic)
                     </nav>
                 </main>
             </center>
+            <br id="portfolio" />
             <center>
-                <main className="main-portfolio">
+                <main className="main-portfolio" >
                     <div className="div1">
                         <p className="text">Dowiedz się jak</p>
                         <p className="nag">Tworzymy rozwiązania, które zwiększają Twoją widoczność w sieci</p>
