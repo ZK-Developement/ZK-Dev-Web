@@ -9,9 +9,45 @@ import compPlac from "../assets/images/monitorplaceholder.svg"
 import tabPlac from "../assets/images/tabletplaceholder.svg"
 import webplace from "../assets/images/websiteplaaceholder.svg"
 import man from "../assets/images/man.jpg"
+import { useState, useEffect } from "react";
 
-function MainS (setStatic)
-{
+
+
+
+function MainS (){
+    const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setStatus("✔ Wiadomość wysłana.");
+      e.target.reset();
+    } else {
+      setStatus("Błąd wysyłania.");
+    }
+  };
+
+  // ⬇️ TU to wklejasz
+  useEffect(() => {
+    if (!status) return;
+
+    const timer = setTimeout(() => {
+      setStatus("");
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, [status]);
+
     return(
         <>
         <br id="onas" />
@@ -313,11 +349,20 @@ function MainS (setStatic)
             <br id="kontakt" />
             <center>
                 <main className="main-kontakt">
-
+                    <p className="nag">Napisz do nas w celu dobrania oferty pasującej do ciebie</p>
+                    <div className="kontactdiv">
+                    <form onSubmit={handleSubmit} >
+                        <input  type="hidden" name="access_key" value="b01fcb68-e093-43b6-950d-e292eb2932e6" />
+                        <input className="inputkontakt" type="text"name="name"placeholder="Wprowadź Imię i Nazwisko"  required/><br />
+                        <input className="inputkontakt" type="email" name="email"placeholder="example@gmail.com"  required/><br />
+                        <textarea className="textkontakt" name="message"placeholder="Wprowadź treść" required></textarea><br />
+                        <button className="btnkontakt"type="submit">Wyślij</button>
+                    </form>
+                    {status && <p className="pnag">{status}</p>}
+                    </div>
                 </main>
             </center>
-            <p className="nag">Work in progres</p>
-            <p className="text">Ta strona jest w trakcie tworzenia !</p>
+            
         </>
 
     );
