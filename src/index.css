@@ -943,7 +943,7 @@ footer
   .oferta, .ofertarec { display: block; width: 100%; margin: 0 0 1.5vh 0; height: auto;padding-bottom: 4vh;}
   .pnagl { margin-left: 0; font-size: 2vh; }
   .text, .textl, .btext, .mintext { font-size: 1.6vh; }
-  .flexzauf { animation: none; flex-wrap: wrap; gap: 2vh; justify-content: center; transform: translateX(-3.5vh);}
+  .flexzauf { animation: none; flex-wrap: wrap; gap: 2vh; justify-content: center; transform: translateX(-2.5vh);}
   .flexzauf img { height: 8vh; border-radius: 1vh; }
   .flexzauf a { display: flex; align-items: center; justify-content: center; }
   .faq-container { width: 100%; padding: 0 2vh; }
