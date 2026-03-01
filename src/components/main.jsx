@@ -296,6 +296,7 @@ function MainS (){
             <br id="faq" />
             <center>
                 <main className="main-faq">
+                    <p className="nag">Najczęsciej zadawane pytania:</p>
                     <div class="faq-container">
 
                         <div class="faq-item">
@@ -304,7 +305,7 @@ function MainS (){
                             <p className="pnag">Czy pomagasz w zakupie domeny i hostingu?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Tak. Dobiorę domenę i hosting, skonfiguruję wszystko i podłączę SSL. Nie musisz nic wiedzieć o DNS .</p>
+                            <p className="textl">Tak. Dobiorę domenę i hosting, skonfiguruję wszystko i podłączę. Nie musisz się o nic martwić.</p>
                             </div>
                         </div>
 
@@ -314,7 +315,7 @@ function MainS (){
                             <p className="pnag">Ile trwa wykonanie strony?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">W zależnosci od wybranego planu lub twojego własnego projektu , ale średnia realizacja może wynoscic od 5 dni do 1 miesiąca.</p>
+                            <p className="textl">W zależnosci od wybranego planu lub twojego własnego projektu , ale średnia realizacja może wynossić od 5 dni do 1 miesiąca.</p>
                             </div>
                         </div>
                         <div class="faq-item">
@@ -323,7 +324,7 @@ function MainS (){
                             <p className="pnag">Czy strona będzie dostosowana do telefonów?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Tak. Każdy projekt ktory tworzymy chcemy aby byl uniwersalny pod każde urządzenie.</p>
+                            <p className="textl">Tak. Każdy projekt ktory tworzymy chcemy aby był uniwersalny pod każde urządzenie.</p>
                             </div>
                         </div><div class="faq-item">
                             <input type="checkbox" id="q4" />
@@ -331,7 +332,7 @@ function MainS (){
                             <p className="pnag">Czy oferujesz wsparcie po wdrożeniu?</p>
                             </label>
                             <div class="faq-answer">
-                            <p className="textl">Tak po opublikowaniu strony dalej jest ze mną kontakt wiec jeśli bedziesz mial cos do poprawy lub do dodania w późniejszym czasie wystarczy napisać.</p>
+                            <p className="textl">Tak. Po opublikowaniu strony dalej jest ze mną kontakt, wiec jeśli bedziesz miał coś do poprawy lub do dodania w późniejszym czasie wystarczy napisać.</p>
                             </div>
                         </div>
                         <div class="faq-item">

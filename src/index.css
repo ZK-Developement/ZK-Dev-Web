@@ -107,7 +107,7 @@ main
   background-color: #ffffff;
   margin-bottom: 5vh;
   box-shadow: 0px 0px  40px #1a1a1a1b;
-  display: flex;
+  
 }
 .main-kontakt
 {
@@ -948,7 +948,7 @@ footer
   .flexzauf img { height: 8vh; border-radius: 1vh; }
   .flexzauf a { display: flex; align-items: center; justify-content: center; }
   .faq-container { width: 100%; padding: 0 2vh; }
-  .inputkontakt, .textkontakt { width: 100%; }
+  .inputkontakt, .textkontakt { width: 100%; border: none; }
   .kontactdiv { width: 100%; padding: 5vh; }
   img { max-width: 100%; height: auto; }
   footer { flex-direction: column; height: auto; padding: 4vh 2vh; gap: 2vh; }
