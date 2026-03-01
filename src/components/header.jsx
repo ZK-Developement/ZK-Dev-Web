@@ -18,7 +18,7 @@ function Header (setStatic){
                         <a href="#projekty" ><li>Projekty</li></a>
                         <a href="#opinie" ><li>Opinie</li></a>
                         <a href="#faq" ><li>FAQ</li></a>
-                        <a href="#kontakt" ><li>Kontatk</li></a>
+                        <a href="#kontakt" ><li>Kontakt</li></a>
                     </ul>
                 </div>
                 <div className="StatusDiv">
