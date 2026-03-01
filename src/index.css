@@ -890,12 +890,12 @@ footer
   /* Stack services and center hero buttons for mobile */
   .div { width: 100%; padding: 0 2vh 3vh; }
   .div .pnagl { text-align: center; margin: 0 0 1vh; font-size: 2.2vh; }
-  .flex2 { flex-direction: column; gap: 1.2vh; align-items: stretch; margin-top: 18vh; transform: translateX(-7.5vh); }
+  .flex2 { flex-direction: column; gap: 1.2vh; align-items: stretch;  transform: translateX(-7.5vh); }
   .flex2 .uslugi {  padding: 2.5vh 1vh; text-align: left; width: 40vh; }
   .flex2 .pnag { font-size: 2.2vh; }
   .flex2 .text { font-size: 1.7vh; }
   .flexb { display: flex; justify-content: center; gap: 2vh; flex-wrap: nowrap; margin: 2vh 0 1rem; width: 100%; padding-left: 1vh;padding-right: 1vh;}
-  .flexb .btn { padding: 0.6em 0.4em; font-size: 2vh;margin-top: 14vh;margin-bottom: 10vh; background-color: black; color: rgb(255, 255, 255); }
+  .flexb .btn { padding: 0.6em 0.4em; font-size: 2vh;margin-top: 1vh;margin-bottom: 5vh; background-color: black; color: rgb(255, 255, 255); }
   .btn img { display: none;}
   main, .main-portfolio, .main-oferty, .main-opinie, .main-faq, .main-kontakt {
     width: 95%;
