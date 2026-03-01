@@ -234,7 +234,7 @@ function MainS (){
                                 <p className="nag">Strona Restauracji</p>
                                 <p className="pnag">250zł</p>
                                 <p className="text">Strona internetowa dla restauracji </p>
-                                <button className="btnof">Kontakt</button>
+                                <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                                 
                             </div>
                         </div>
@@ -246,7 +246,7 @@ function MainS (){
                                 <p className="nag">Strona Firmy</p>
                                 <p className="pnag">250zł</p>
                                 <p className="text">Strona internetowa dla Firmy osobistej. </p>
-                                <button className="btnof">Kontakt</button>
+                                <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                                 
                             </div>
                         </div>
@@ -258,7 +258,7 @@ function MainS (){
                                 <p className="nag">Strona Serwera</p>
                                 <p className="pnag">250zł</p>
                                 <p className="text">Strona internetowa dla Serwera w grze. </p>
-                                <button className="btnof">Kontakt</button>
+                                <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                                 
                             </div>
                         </div>
