@@ -120,23 +120,23 @@ function MainS (){
                     </div>
                     <div className="companyad">
                         <div className="lewoc" >
-                            <p className="text">Nazwa Firmy  <span className="category">Sklep internetowy</span> <span className="category">Firma osobista</span></p>
-                            <p className="nag">Nowoczesny sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
+                            <p className="text">Dar-Trans<span className="category">Firma Usługa</span> <span className="category">Firma prywatna</span></p>
+                            <p className="nag">Odświeżona strona internetowa dla firmy <br />“DAR-TRANS”, pokochanej przez klientów</p>
                             <div className="companyopis">
                             <hr className="companyline"></hr>
-                            <p className="text">Klient przyszedł do nas z prośbą o odświeżenie ich sklepu internetowego.<br />
-                                                Udało nam się w pełni sprostać jego wymaganiom,<br />
+                            <p className="text">Właściciel napisał do nas z prośbą o odświeżenie ich strony firmowej.<br />
+                                                Udało nam się w pełni sprostać jego wymaganiom,<br /> 
                                                 co zaowocowało znacznym wzrostem konwersji i sprzedaży.</p>
                             </div>
                         </div>
                         <div className="prawoc">
-                            <img src={compPlac} alt="companyview" />
+                            <a href="https://dar-trans.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={compPlac} alt="companyview" /></a>
                         </div>
                     </div>
                     <div className="companyad">
                         <div className="lewoc" >
                             <p className="text">Nazwa Firmy  <span className="category">Sklep internetowy</span> <span className="category">Firma osobista</span></p>
-                            <p className="nag">Nowoczesny sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
+                            <p className="nag">Nowoczesn sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
                             <div className="companyopis">
                             <hr className="companyline"></hr>
                             <p className="text">Klient przyszedł do nas z prośbą o odświeżenie ich sklepu internetowego.<br />

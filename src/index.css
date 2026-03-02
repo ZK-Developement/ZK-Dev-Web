@@ -543,6 +543,7 @@ footer
 
 .category
 {
+  margin-left: 1vh;
   color: #797979;
   background-color: #ededed;
   padding: 0.6vh;
@@ -867,7 +868,8 @@ footer
   padding: 10vh;
   background-color: #e7e7e7;
 }
-/* Mobile responsive adjustments */
+
+
 @media (max-width: 768px) {
   .liniagp { display: none; }
   header {
@@ -1006,4 +1008,5 @@ footer
   .linia, .liniaof, .liniagp { display: none; }
   .faq-answer { font-size: 3.5vw; }
 }
+
 
