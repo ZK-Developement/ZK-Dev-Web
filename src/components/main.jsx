@@ -126,7 +126,7 @@ function MainS (){
                             <hr className="companyline"></hr>
                             <p className="text">Właściciel napisał do nas z prośbą o odświeżenie ich strony firmowej.<br />
                                                 Udało nam się w pełni sprostać jego wymaganiom,<br /> 
-                                                co zaowocowało znacznym wzrostem konwersji i sprzedaży.</p>
+                                                co zaowocowało znacznym wzrostem konwersji i zleceń.</p>
                             </div>
                         </div>
                         <div className="prawoc">
