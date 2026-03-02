@@ -9,6 +9,7 @@ import compPlac from "../assets/images/monitorplaceholder.svg"
 import tabPlac from "../assets/images/tabletplaceholder.svg"
 import webplace from "../assets/images/websiteplaaceholder.svg"
 import man from "../assets/images/man.jpg"
+import opinph from"../assets/images/opiniaplaceholder.svg"
 import { useState, useEffect } from "react";
 
 
@@ -268,10 +269,10 @@ function MainS (){
             <center>
                 <main className="main-opinie"> 
                     <div className="opinia">
-                        <div className="lewoop"> <img src={man} alt="osoba" /></div>
+                        <div className="lewoop"> <img src={opinph} alt="osoba" /></div>
                         <div className="prawoop">
-                            <p className="nag">Grzegorz Armani</p>
-                            <p className="pnag">Własciciel serwera minecraft</p>
+                            <p className="nag">Imię Nazwisko</p>
+                            <p className="pnag">Własciciel Lorem Ipsum</p>
                             <hr className="companylineop"></hr>
                             <p className="text">Współpraca z Firmą ZK Developement była bardzo przyjemna oraz szybka ,
                                  nie napotkałem zadnych problemow . polecam w 100% .</p>
@@ -279,10 +280,10 @@ function MainS (){
 
                     </div>
                     <div className="opinia">
-                        <div className="lewoop"> <img src={man} alt="osoba" /></div>
+                        <div className="lewoop"> <img src={opinph} alt="osoba" /></div>
                         <div className="prawoop">
-                            <p className="nag">Grzegorz Armani</p>
-                            <p className="pnag">Własciciel serwera minecraft</p>
+                            <p className="nag">Imię Nazwisko</p>
+                            <p className="pnag">Własciciel Lorem Ipsum</p>
                             <hr className="companylineop"></hr>
                             <p className="text">Współpraca z Firmą ZK Developement była bardzo przyjemna oraz szybka ,
                                  nie napotkałem zadnych problemow . polecam w 100% .</p>
