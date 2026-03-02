@@ -102,7 +102,7 @@ function MainS (){
                         <p className="nag">Firmy które nam zaufały :</p>
                         <div className="zaufal">
                             <div className=" flexzauf">
-                                <a href=""><img src={Placeholder} alt="dardtranslogo" /></a>
+                                <a href=""><img src={Dartrans} alt="dardtranslogo" /></a>
                                 <a href=""> <img src={Placeholder} alt="starsystemlogo" /></a>
                             </div>
                         </div>
