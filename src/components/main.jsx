@@ -10,7 +10,9 @@ import tabPlac from "../assets/images/tabletplaceholder.svg"
 import webplace from "../assets/images/websiteplaaceholder.svg"
 import man from "../assets/images/man.jpg"
 import opinph from"../assets/images/opiniaplaceholder.svg"
+import mondartrans from "../assets/images/monitordartrans.svg"
 import { useState, useEffect } from "react";
+
 
 
 
@@ -104,7 +106,7 @@ function MainS (){
                         <div className="zaufal">
                             <div className=" flexzauf">
                                 <a href="https://dar-trans.eu/" target="_blank" rel="noopener noreferrer"><img src={Dartrans} alt="dardtranslogo" /></a>
-                                <a href=""> <img src={Placeholder} alt="starsystemlogo" /></a>
+                                <a href=""> <img src={Placeholder} alt="partnerplaceholder" /></a>
                             </div>
                         </div>
                         
@@ -131,7 +133,7 @@ function MainS (){
                             </div>
                         </div>
                         <div className="prawoc">
-                            <a href="https://dar-trans.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={compPlac} alt="companyview" /></a>
+                            <a href="https://dar-trans.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={mondartrans} alt="companyview" /></a>
                         </div>
                     </div>
                     <div className="companyad">
