@@ -2,7 +2,8 @@ import icon from "../assets/images/icon.svg"
 import emicon from "../assets/images/emailicon.png"
 
 
-function Footer (setStatic)
+
+function Footer ({setPage})
 {
     return(
         <>
@@ -14,6 +15,7 @@ function Footer (setStatic)
                         <p className="btext">Developement</p>
                     </div>
                     <div className="srodek">
+                        <p onClick={() => setPage("polityka")} className="polityka">Polityka Prywatnośći</p>
                         <p className="mintext">©2026 ZK DEV. All rights reserved.</p>
                     </div>
                     <div className="companydivp">

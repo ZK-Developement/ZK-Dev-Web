@@ -109,6 +109,25 @@ main
   box-shadow: 0px 0px  40px #1a1a1a1b;
   
 }
+.main-polityka
+{
+  margin-top: 15vh;
+  font-size: 2vh;
+  padding: 5vh;
+  border-radius: 2.5vh;
+  height: auto;
+  width: 60%;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  box-shadow: 0px 0px  40px #1a1a1a1b;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+}
+.main-polityka img { height: 5vh;}
+.main-polityka .logo { width: 100%; display: flex; justify-content: center; align-content: center;}
+.main-polityka .text { margin-left: 3vh;}
+.main-polityka p { margin: 1vh;}
 .main-kontakt
 {
   margin-top: 10vh;
@@ -337,9 +356,11 @@ li:active
 .nagl { font-size: 3.5vh; font-weight: bold; text-align: left;}
 .pnag { font-size: 2.5vh; font-weight: bold;}
 .text { font-size: 2vh; }
+.textsr { font-size: 2vh; text-align: center; }
 .textl { font-size: 2vh;text-align: left; }
 .btext { font-size: 2vh; font-weight: bold;}
 .mintext { font-size: 1.5vh; color: #636363;}
+.polityka { font-size: 1.5vh; color: #636363; text-decoration: underline; cursor: pointer;}
 
 .onasdiv
 {
@@ -868,6 +889,7 @@ footer
   padding: 10vh;
   background-color: #e7e7e7;
 }
+.backtomain { cursor: pointer;}
 
 
 @media (max-width: 768px) {
