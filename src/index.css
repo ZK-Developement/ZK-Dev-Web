@@ -206,7 +206,7 @@ header
   background-color: #ffffff6f; 
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  margin: 4vh 20vh 4vh 25vh;
+  margin: 3vh 25vh 4vh 25vh;
   display: flex;
   align-content: center;
   align-items: center;
