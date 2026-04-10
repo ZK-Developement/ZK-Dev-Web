@@ -9,10 +9,11 @@ function Polityka () {
                     <p className="btext">Developement</p>
                 </div>
                 <div>
+                    
                     <p className="pnag">1.Administrator danych</p>
                     <p className="text">Administratorem danych jest ZK DEV.</p>
                     <p className="text">Kontakt: <a href="mailto:contactus.zk.business@gmail.com">contactus.zk.business@gmail.com</a></p>
-
+                    
                     <p className="pnag">2.Zakres zbieranych danych</p>
                     <p className="text">Za pośrednictwem formularza kontaktowego zbierane są:</p>
                     <p className="text"> - Imię oraz Nazwisko</p>

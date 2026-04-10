@@ -2,8 +2,9 @@ import icon from "../assets/images/icon.svg"
 function Headerpolityka ({setPage}){
     return (
         <>
+        <br  id="toppol"/>
         <center>
-            <header>
+            <header >
                 <a href="">
                 <div className="companydiv">
                 <img src={icon} alt="icon" />
@@ -12,7 +13,7 @@ function Headerpolityka ({setPage}){
                 </a>
                 <div className="flex">
                     <ul className="navbar">
-                        <a><li  className="backtomain" onClick={() => setPage("home")}>Powrót na stronę</li></a>
+                        <a href="#onas"><li  className="backtomain" onClick={() => setPage("home")}>Powrót na stronę</li></a>
                     </ul>
                 </div>
                 <div className="StatusDiv">

@@ -15,7 +15,7 @@ function Footer ({setPage})
                         <p className="btext">Developement</p>
                     </div>
                     <div className="srodek">
-                        <p onClick={() => setPage("polityka")} className="polityka">Polityka Prywatnośći</p>
+                        <a href="#toppol"><p onClick={() => setPage("polityka")} className="polityka">Polityka Prywatnośći</p></a>
                         <p className="mintext">©2026 ZK DEV. All rights reserved.</p>
                     </div>
                     <div className="companydivp">

@@ -371,9 +371,9 @@ li:active
   width: 100%;
   filter: grayscale(60%);
   background: 
-  linear-gradient(rgba(255, 255, 255, 0.157),
-  rgb(255, 255, 255)),
-  url(./assets/images/kontact1.png) 
+  linear-gradient(rgba(255, 255, 255, 0),
+  rgba(255, 255, 255, 0.204)),
+  url(./assets/images/konract2.svg) 
   center center / cover no-repeat;
   border-radius: 2vh;
 }
@@ -893,6 +893,12 @@ footer
 
 
 @media (max-width: 768px) {
+  .main-polityka
+  {
+    width: 90%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
   .liniagp { display: none; }
   header {
     margin: 2vh 2vw;
@@ -1030,5 +1036,23 @@ footer
   .linia, .liniaof, .liniagp { display: none; }
   .faq-answer { font-size: 3.5vw; }
 }
+
+
+
+
+
+
+
+.fade-in {
+  opacity: 0;
+  transition: 450ms;
+  pointer-events: auto ;
+}
+
+.fade-in.show {
+  opacity: 1;
+}
+
+
 
 
