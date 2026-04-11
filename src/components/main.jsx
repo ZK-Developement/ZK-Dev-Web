@@ -199,7 +199,7 @@ function MainS() {
                                 <p className="nagl">100zł</p>
                                 <p className="textl">✔ Do 2 podstron</p>
                                 <p className="textl">✔ Podstawowy formularz kontaktowy</p>
-                                <p className="textl">✔ Respoinsywność strony</p>
+                                <p className="textl">✔ Responsywność strony</p>
                                 <p className="textl">✔ Czas realizacji do 5 dni</p>
                                 </div>
                                 <a href="#kontakt"><button className="btnof">Kontakt</button></a>
