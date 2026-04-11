@@ -79,7 +79,7 @@ function MainS() {
                             <div className="onasdiv">
                                 <div className="companydivb">
                                         <img src={icon} alt="icon" />
-                                        <p className="pnag">Developement</p>
+                                        <p className="pnag">Development</p>
                                 </div>
                             <p className="nag fade-in" style={{ transitionDelay: "0s" }}>Napiszemy twoją Strone od podstaw .</p>
                             <p className="text fade-in" style={{ transitionDelay: "0.2s" }}>Zajmujemy sie tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p>

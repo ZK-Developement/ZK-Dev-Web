@@ -6,7 +6,7 @@ function Polityka () {
             <main className="main-polityka">
                 <div className="logo">
                     <img src={icon} alt="iconzk" />
-                    <p className="btext">Developement</p>
+                    <p className="btext">Development</p>
                 </div>
                 <div>
                     

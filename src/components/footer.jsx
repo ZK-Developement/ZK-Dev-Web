@@ -12,7 +12,7 @@ function Footer ({setPage})
                     
                     <div className="companydivl">
                         <img src={icon} alt="icon" />
-                        <p className="btext">Developement</p>
+                        <p className="btext">Development</p>
                     </div>
                     <div className="srodek">
                         <a href="#toppol"><p onClick={() => setPage("polityka")} className="polityka">Polityka Prywatnośći</p></a>
