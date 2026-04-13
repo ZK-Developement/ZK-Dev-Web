@@ -8,7 +8,7 @@ function Headerpolityka ({setPage}){
                 <a href="">
                 <div className="companydiv">
                 <img src={icon} alt="icon" />
-                <p>Developement</p>
+                <p>Development</p>
                 </div>
                 </a>
                 <div className="flex">
