@@ -19,6 +19,17 @@ import { useEffect, useState } from "react";
 
 function MainS() {
   const [status, setStatus] = useState("");
+  const [isBrutto, setIsBrutto] = useState(false);
+
+  const values = [200, 400, 900];
+
+  const licz = (val) => {
+  const wynik = isBrutto ? val * 1.23 : val;
+
+  return wynik % 1 === 0
+    ? wynik
+    : wynik.toFixed(2);
+};
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -190,13 +201,22 @@ function MainS() {
             <br id="oferty" />
             <center>
                 <main className="main-oferty">
+                    <div className="ofertydivflex">
                     <p className="pnagl">Nasze Oferty : - wybierz to, co pasuje do Twojego biznesu.</p>
+                    <label className="switch">
+                        <input type="checkbox" id="vatToggle" checked={isBrutto} onChange={() => setIsBrutto(!isBrutto)}/>
+                        <span className="slider"></span>
+                        <p className="slidertxt">
+                        <span className={!isBrutto ? "nett active" : "nett"}>netto</span>  | <span className={isBrutto ? "brutt active" : "brutt"}>brutto</span></p>
+                    </label>
+                    </div>
+                    
                         <hr className="liniaof" />
                         <div className="flex">
                             <div className="oferta fade-in" style={{ transitionDelay: "0s" }}>
                                 <div className="of-gora">
                                 <p className="nag">Standard</p>
-                                <p className="nagl">100zł</p>
+                                <p className="nagl" id="v1">{licz(values[0])}zł</p>
                                 <p className="textl">✔ Do 2 podstron</p>
                                 <p className="textl">✔ Podstawowy formularz kontaktowy</p>
                                 <p className="textl">✔ Responsywność strony</p>
@@ -208,7 +228,7 @@ function MainS() {
                                 <p className="recom">Najczęsciej Wybierane</p>
                                 <div className="of-gora">
                                 <p className="nag">Standard +</p>
-                                <p className="nagl">240zł <span className="starac">300zł</span><span className="przec">-20%</span></p>
+                                <p className="nagl" id="v2">{licz(values[1])}zł <span className="starac">500zł</span><span className="przec">-20%</span></p>
                                 <p className="textl">✔ Do 5 podstron </p>
                                 <p className="textl">✔ Responsywność </p>
                                 <p className="textl">✔ Podpięcie pod domenę i hosting</p>
@@ -220,7 +240,7 @@ function MainS() {
                             <div className="oferta fade-in" style={{ transitionDelay: "0.4s" }}>
                                 <div className="of-gora">
                                 <p className="nag">Premium</p>
-                                <p className="nagl">999zł</p>
+                                <p className="nagl" id="v3">{licz(values[2])}zł</p>
                                 <p className="textl">✔ Customowy formularz</p>
                                 <p className="textl">✔ Animacje i efekty UI</p>
                                 <p className="textl">✔ Optymalizacja SEO</p>
@@ -243,6 +263,7 @@ function MainS() {
                                 
                             </div>
                         </div>
+                        <p className="mintext">*Przy kazdym zleceniu wystawiamy fakturę VAT*</p>
                         <br id="projekty" />
                         <p className="pnagl">Gotowe Projekty : - wybierz to co pasuje do Twojego biznesu a my dostosujemy go do was.</p>
                         <hr className="liniagp" />
