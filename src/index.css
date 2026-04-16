@@ -1071,7 +1071,7 @@ input:checked + .slider:before {
 }
 .ofertydivflex .switch
 {
-  transform: translateY(1vh);
+  transform: translateY(0vh);
 }
   
 
