@@ -207,7 +207,7 @@ function MainS() {
                         <input type="checkbox" id="vatToggle" checked={isBrutto} onChange={() => setIsBrutto(!isBrutto)}/>
                         <span className="slider"></span>
                         <p className="slidertxt">
-                        <span className={!isBrutto ? "nett active" : "nett"}>netto</span> <span className={isBrutto ? "brutt active" : "brutt"}>brutto</span></p>
+                        <span className={!isBrutto ? "nett active" : "nett"}> netto</span> <span className={isBrutto ? "brutt active" : "brutt"}>brutto</span></p>
                     </label>
                     </div>
                     
