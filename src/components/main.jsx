@@ -21,7 +21,7 @@ function MainS() {
   const [status, setStatus] = useState("");
   const [isBrutto, setIsBrutto] = useState(false);
 
-  const values = [200, 400, 900];
+  const values = [200, 400, 900,300];
 
   const licz = (val) => {
   const wynik = isBrutto ? val * 1.23 : val;
@@ -122,7 +122,7 @@ function MainS() {
                             </div>
                             <div className="uslugi fade-in" style={{ transitionDelay: "0.2s" }}>
                                 <p className="pnag">Tworzenie Grafik dla Firm</p>
-                                <p className="text">Możemy stworzyć dla twojej Firmy Logo lub czego tylko bedziesz potrzebować .</p>
+                                <p className="text">Możemy stworzyć dla twojej Firmy Logo lub czego tylko bedziesz potrzebować.</p>
                             </div>
                             <div className="uslugi fade-in" style={{ transitionDelay: "0.3s" }}>
                                 <p className="pnag">Projektowanie Mobile Design/UI</p>
@@ -131,7 +131,7 @@ function MainS() {
                         </div>
                     </div>
                     <div>
-                        <p className="nag">Firmy które nam zaufały :</p>
+                        <p className="nag">Firmy które nam zaufały:</p>
                         <div className="zaufal">
                             <div className=" flexzauf">
                                 <a href="https://dar-trans.eu/" target="_blank" rel="noopener noreferrer"><img src={Dartrans} alt="dardtranslogo" /></a>
@@ -167,7 +167,7 @@ function MainS() {
                     </div>
                     <div className="companyad">
                         <div className="lewoc" >
-                            <p className="text">Nazwa Firmy  <span className="category">Sklep internetowy</span> <span className="category">Firma osobista</span></p>
+                            <p className="text">Nazwa Firmy  <span className="category">Kategoria</span> <span className="category">Kategoria</span></p>
                             <p className="nag">Nowoczesn sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
                             <div className="companyopis">
                             <hr className="companyline"></hr>
@@ -182,7 +182,7 @@ function MainS() {
                     </div>
                     <div className="companyad">
                         <div className="lewoc" >
-                            <p className="text">Nazwa Firmy  <span className="category">Sklep internetowy</span> <span className="category">Firma osobista</span></p>
+                            <p className="text">Nazwa Firmy  <span className="category">Kategoriay</span> <span className="category">Kategoria</span></p>
                             <p className="nag">Nowoczesny sklep internetowy “Nazwa Firmy”,<br /> pokochany przez klientów</p>
                             <div className="companyopis">
                             <hr className="companyline"></hr>
@@ -202,7 +202,7 @@ function MainS() {
             <center>
                 <main className="main-oferty">
                     <div className="ofertydivflex">
-                    <p className="pnagl">Nasze Oferty : - wybierz to, co pasuje do Twojego biznesu.</p>
+                    <p className="pnagl">Nasze Oferty: wybierz to, co pasuje do Twojego biznesu.</p>
                     <label className="switch">
                         <input type="checkbox" id="vatToggle" checked={isBrutto} onChange={() => setIsBrutto(!isBrutto)}/>
                         <span className="slider"></span>
@@ -265,7 +265,7 @@ function MainS() {
                         </div>
                         <p className="mintext">*Przy kazdym zleceniu wystawiamy fakturę VAT*</p>
                         <br id="projekty" />
-                        <p className="pnagl">Gotowe Projekty : - wybierz to co pasuje do Twojego biznesu a my dostosujemy go do was.</p>
+                        <p className="pnagl">Gotowe Projekty: wybierz gotowy projekt, a my dostosujemy go do ciebie.</p>
                         <hr className="liniagp" />
                         
                          <div className="projekt">
@@ -274,7 +274,7 @@ function MainS() {
                             </div>
                             <div className="pprawo">
                                 <p className="nag">Strona Restauracji</p>
-                                <p className="pnag">250zł</p>
+                                <p className="pnag">{licz(values[3])}zł</p>
                                 <p className="text">Strona internetowa dla restauracji </p>
                                 <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                                 
@@ -286,7 +286,7 @@ function MainS() {
                             </div>
                             <div className="pprawo">
                                 <p className="nag">Strona Firmy</p>
-                                <p className="pnag">250zł</p>
+                                <p className="pnag">{licz(values[3])}zł</p>
                                 <p className="text">Strona internetowa dla Firmy osobistej. </p>
                                 <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                                 
@@ -298,7 +298,7 @@ function MainS() {
                             </div>
                             <div className="pprawo">
                                 <p className="nag">Strona Serwera</p>
-                                <p className="pnag">250zł</p>
+                                <p className="pnag">{licz(values[3])}zł</p>
                                 <p className="text">Strona internetowa dla Serwera w grze. </p>
                                 <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                                 
