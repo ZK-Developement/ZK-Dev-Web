@@ -220,7 +220,7 @@ function MainS() {
                                 <p className="textl">✔ Do 2 podstron</p>
                                 <p className="textl">✔ Podstawowy formularz kontaktowy</p>
                                 <p className="textl">✔ Responsywność strony</p>
-                                <p className="textl">✔ Czas realizacji ok.5 dni</p>
+                                <p className="textl">✔ Czas realizacji od 1 do 2 tygodni</p>
                                 </div>
                                 <a href="#kontakt"><button className="btnof">Kontakt</button></a>
                             </div>
@@ -232,7 +232,7 @@ function MainS() {
                                 <p className="textl">✔ Do 5 podstron </p>
                                 <p className="textl">✔ Responsywność </p>
                                 <p className="textl">✔ Podpięcie pod domenę i hosting</p>
-                                <p className="textl">✔ Czas realizacji ok.7 dni</p>
+                                <p className="textl">✔ Czas realizacji od 2 do miesiąca</p>
                                 </div>
                                 <a href="#kontakt"><button className="btnof">Kontakt</button></a>
 
