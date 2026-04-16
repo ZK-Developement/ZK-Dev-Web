@@ -263,7 +263,7 @@ function MainS() {
                                 
                             </div>
                         </div>
-                        <p className="mintext">*Przy kazdym zleceniu wystawiamy fakturę VAT*</p>
+                        <p className="mintext">*Przy każdym zleceniu wystawiam fakturę VAT*</p>
                         <br id="projekty" />
                         <p className="pnagl">Gotowe Projekty: wybierz gotowy projekt, a my dostosujemy go do ciebie.</p>
                         <hr className="liniagp" />
