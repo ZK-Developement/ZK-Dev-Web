@@ -92,7 +92,7 @@ function MainS() {
                                         <img src={icon} alt="icon" />
                                         <p className="pnag">Development</p>
                                 </div>
-                            <p className="nag fade-in" style={{ transitionDelay: "0s" }}>Napiszemy twoją Strone od podstaw .</p>
+                            <p className="nag fade-in" style={{ transitionDelay: "0s" }}>Napiszemy twoją Stronę od podstaw.</p>
                             <p className="text fade-in" style={{ transitionDelay: "0.2s" }}>Zajmujemy sie tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p>
                             <div className="flexb fade-in" style={{ transitionDelay: "0.4s" }}>
                                 <a href="#oferty"><button className="btn">
