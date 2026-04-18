@@ -232,7 +232,7 @@ function MainS() {
                                 <p className="textl">✔ Do 5 podstron </p>
                                 <p className="textl">✔ Responsywność </p>
                                 <p className="textl">✔ Podpięcie pod domenę i hosting</p>
-                                <p className="textl">✔ Czas realizacji od 2 do miesiąca</p>
+                                <p className="textl">✔ Czas realizacji od 2 tyg. do miesiąca</p>
                                 </div>
                                 <a href="#kontakt"><button className="btnof">Kontakt</button></a>
 
