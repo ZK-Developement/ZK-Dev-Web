@@ -90,10 +90,11 @@ function MainS() {
                             <div className="onasdiv">
                                 <div className="companydivb">
                                         <img src={icon} alt="icon" />
-                                        <p className="pnag">Development</p>
+                                        <h1 className="pnag"><span className="white">ZK</span> Development</h1>
                                 </div>
-                            <p className="nag fade-in" style={{ transitionDelay: "0s" }}>Napiszemy twoją Stronę od podstaw.</p>
-                            <p className="text fade-in" style={{ transitionDelay: "0.2s" }}>Zajmujemy sie tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p>
+                            <h2 className="nag fade-in" style={{ transitionDelay: "0s" }}>Napiszemy twoją Stronę od podstaw.</h2>
+                            <h3 className="text fade-in" style={{ transitionDelay: "0.2s" }}>Zajmujemy sie tworzeniem nowoczesnych 
+                                stron internetowych oraz projektami designu strony.</h3>
                             <div className="flexb fade-in" style={{ transitionDelay: "0.4s" }}>
                                 <a href="#oferty"><button className="btn">
                                     <img src={Message} alt="icon" />
