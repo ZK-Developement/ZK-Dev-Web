@@ -31,25 +31,39 @@ function MainS() {
     : wynik.toFixed(2);
 };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const formData = new FormData(e.target);
+  const formData = new FormData(e.target);
 
+  console.log("FORM DATA:", Object.fromEntries(formData));
+
+  try {
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
+      headers: {
+        "Accept": "application/json"
+      },
       body: formData
     });
 
-    const data = await response.json();
+    console.log("STATUS:", response.status);
 
-    if (data.success) {
+    const data = await response.json();
+    console.log("RESPONSE:", data);
+
+    if (response.ok && data.success) {
       setStatus("✔ Wiadomość wysłana");
       e.target.reset();
     } else {
-      setStatus("Błąd wysyłania");
+      setStatus(data.message || "Błąd wysyłania");
     }
-  };
+
+  } catch (err) {
+    console.log("FETCH ERROR:", err);
+    setStatus("Błąd sieci");
+  }
+};
 
   useEffect(() => {
     if (!status) return;
