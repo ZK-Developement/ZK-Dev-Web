@@ -3,6 +3,7 @@ import Message from "../assets/images/messageicon.svg"
 import Offer from "../assets/images/offericon.svg"
 import Onas from "../assets/images/monitor.png"
 import Dartrans from "../assets/images/dartrans.png"
+import vaxercode from "../assets/images/vaxercode-zoom-wyth-icon.svg"
 import StarSystem from "../assets/images/StarSystemlogo.svg"
 import Placeholder from "../assets/images/placeholderlogo.svg"
 import compPlac from "../assets/images/monitorplaceholder.svg"
@@ -150,7 +151,7 @@ function MainS() {
                         <div className="zaufal">
                             <div className=" flexzauf">
                                 <a href="https://dar-trans.eu/" target="_blank" rel="noopener noreferrer"><img src={Dartrans} alt="dardtranslogo" /></a>
-                                <a href=""> <img src={Placeholder} alt="partnerplaceholder" /></a>
+                                <a className="vax"href="https://vaxercode.pl/" target="_blank" rel="noopener noreferrer"><img  src={vaxercode} alt="vaxercodelogo" /></a>
                             </div>
                         </div>
                         

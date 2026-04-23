@@ -222,6 +222,15 @@ header img
 {
   height: 7vh;
 }
+.vax
+{
+  transform: scale(1.5);
+  transition: 200ms;
+}
+.vax:hover
+{
+  transform: scale(1.6);
+}
 
 .companydiv
 {
@@ -416,6 +425,7 @@ li:active
   gap: 10vh;
   justify-content: center;
   display: flex;
+  
   width: max-content;
   animation: scroll 10s linear infinite;
 }
@@ -1028,6 +1038,10 @@ input:checked ~ .slidertxt .brutt {
   -webkit-transition: .4s;
   transition: .4s;
   
+}
+.flexzauf
+{
+  flex-direction: column;
 }
 
 .slider:before {
