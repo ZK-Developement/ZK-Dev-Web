@@ -219,12 +219,7 @@ function MainS() {
                 <main className="main-oferty">
                     <div className="ofertydivflex">
                     <p className="pnagl">Nasze Oferty: wybierz to, co pasuje do Twojego biznesu.</p>
-                    <label className="switch">
-                        <input type="checkbox" id="vatToggle" checked={isBrutto} onChange={() => setIsBrutto(!isBrutto)}/>
-                        <span className="slider"></span>
-                        <p className="slidertxt">
-                        <span className={!isBrutto ? "nett active" : "nett"}> netto</span> <span className={isBrutto ? "brutt active" : "brutt"}>brutto</span></p>
-                    </label>
+                    
                     </div>
                     
                         <hr className="liniaof" />
@@ -279,7 +274,7 @@ function MainS() {
                                 
                             </div>
                         </div>
-                        <p className="mintext">*Przy każdym zleceniu wystawiam fakturę VAT*</p>
+                        
                         <br id="projekty" />
                         <p className="pnagl">Gotowe Projekty: wybierz gotowy projekt, a my dostosujemy go do ciebie.</p>
                         <hr className="liniagp" />
